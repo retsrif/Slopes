@@ -566,67 +566,67 @@ public class Slopes extends JavaPlugin {
 	public void setupStairsRecipes() {
 		ItemStack glsis = new SpoutItemStack(gls, 4);
 		SpoutShapedRecipe glsr = new SpoutShapedRecipe(glsis);
-		glsr.shape("A", "AA", "AAA");
+		glsr.shape("A  ", "AA ", "AAA");
 		glsr.setIngredient('A', MaterialData.glass);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(glsr);
 		
 		ItemStack sssis = new SpoutItemStack(sss, 4);
 		SpoutShapedRecipe sssr = new SpoutShapedRecipe(sssis);
-		sssr.shape("A", "AA", "AAA");
+		sssr.shape("A  ", "AA ", "AAA");
 		sssr.setIngredient('A', MaterialData.sandstone);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(sssr);
 		
 		ItemStack dirsis = new SpoutItemStack(dirs, 4);
 		SpoutShapedRecipe dirsr = new SpoutShapedRecipe(dirsis);
-		dirsr.shape("A", "AA", "AAA");
+		dirsr.shape("A  ", "AA ", "AAA");
 		dirsr.setIngredient('A', MaterialData.dirt);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(dirsr);
 		
 		ItemStack sasis = new SpoutItemStack(sas, 4);
 		SpoutShapedRecipe sasr = new SpoutShapedRecipe(sasis);
-		sasr.shape("A", "AA", "AAA");
+		sasr.shape("A  ", "AA ", "AAA");
 		sasr.setIngredient('A', MaterialData.sand);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(sasr);
 		
 		ItemStack snsis = new SpoutItemStack(sns, 4);
 		SpoutShapedRecipe snsr = new SpoutShapedRecipe(snsis);
-		snsr.shape("A", "AA", "AAA");
+		snsr.shape("A  ", "AA ", "AAA");
 		snsr.setIngredient('A', MaterialData.snow);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(snsr);
 		
 		ItemStack grassis = new SpoutItemStack(grss, 4);
 		SpoutShapedRecipe grassr = new SpoutShapedRecipe(grassis);
-		grassr.shape("A", "AA", "AAA");
+		grassr.shape("A  ", "AA ", "AAA");
 		grassr.setIngredient('A', MaterialData.grass);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(grassr);
 		
 		ItemStack gravsis = new SpoutItemStack(gravs, 4);
 		SpoutShapedRecipe gravsr = new SpoutShapedRecipe(gravsis);
-		gravsr.shape("A", "AA", "AAA");
+		gravsr.shape("A  ", "AA ", "AAA");
 		gravsr.setIngredient('A', MaterialData.gravel);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(gravsr);
 		
 		ItemStack gosis = new SpoutItemStack(gos, 4);
 		SpoutShapedRecipe gosr = new SpoutShapedRecipe(gosis);
-		gosr.shape("A", "AA", "AAA");
+		gosr.shape("A  ", "AA ", "AAA");
 		gosr.setIngredient('A', MaterialData.goldBlock);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(gosr);
 		
 		ItemStack isis = new SpoutItemStack(is, 4);
 		SpoutShapedRecipe isr = new SpoutShapedRecipe(isis);
-		isr.shape("A", "AA", "AAA");
+		isr.shape("A  ", "AA ", "AAA");
 		isr.setIngredient('A', MaterialData.ironBlock);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(isr);
 		
 		ItemStack osis = new SpoutItemStack(os, 4);
 		SpoutShapedRecipe osr = new SpoutShapedRecipe(osis);
-		osr.shape("A", "AA", "AAA");
+		osr.shape("A  ", "AA ", "AAA");
 		osr.setIngredient('A', MaterialData.obsidian);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(osr);
 		
 		ItemStack diasis = new SpoutItemStack(dias, 4);
 		SpoutShapedRecipe diasr = new SpoutShapedRecipe(diasis);
-		diasr.shape("A", "AA", "AAA");
+		diasr.shape("A  ", "AA ", "AAA");
 		diasr.setIngredient('A', MaterialData.diamondBlock);
 		SpoutManager.getMaterialManager().registerSpoutRecipe(diasr);
 	}
