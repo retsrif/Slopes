@@ -1,0 +1,6 @@
+name: Slopes
+version: 1.0
+description: Slope blocks, corner blocks, etc.
+author: retsrif
+main: retsrif.Slopes.Slopes
+depend: [Spout]
