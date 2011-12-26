@@ -254,12 +254,10 @@ public class Slopes extends JavaPlugin {
 	
 	public static Slopes instance;
 	
-	@Override
 	public void onDisable() {
 		System.out.println("[Slopes] disabled.");
 	}
 
-	@Override
 	public void onEnable() {
 		instance = this;
 		extractFile("Slopes.png", true);
