@@ -18,6 +18,8 @@ import org.getspout.spoutapi.material.CustomBlock;
 import org.getspout.spoutapi.material.MaterialData;
 
 public class Slopes extends JavaPlugin {
+	public static Direction d = Direction.EAST;
+	
 	public static Texture tex;
 	public static SubTexture wood;
 	public static SubTexture cobble;
@@ -415,22 +417,22 @@ public class Slopes extends JavaPlugin {
 	}
 	
 	public void setupCeilingAngles() {
-		wca = new WoodenCeilingAngle(this, "Wooden Ceiling Angle", tex, wood);
-		cca = new CobbleCeilingAngle(this, "Cobblestone Ceiling Angle", tex, cobble);
-		glca = new GlassCeilingAngle(this, "Glass Ceiling Angle", tex, glass);
-		ssca = new SandstoneCeilingAngle(this, "Sandstone Ceiling Angle", tex, sandstone);
-		dirca = new DirtCeilingAngle(this, "Dirt Ceiling Angle", tex, dirt);
-		stca = new StoneCeilingAngle(this, "Stone Ceiling Angle", tex, stone);
-		saca = new SandCeilingAngle(this, "Sand Ceiling Angle", tex, sand);
-		snca = new SnowCeilingAngle(this, "Snow Ceiling Angle", tex, snow);
-		grasca = new GrassCeilingAngle(this, "Grass Ceiling Angle", tex, grass);
-		bca = new BricksCeilingAngle(this, "Bricks Ceiling Angle", tex, bricks);
-		gravca = new GravelCeilingAngle(this, "Gravel Ceiling Angle", tex, gravel);
-		goca = new GoldCeilingAngle(this, "Gold Ceiling Angle", tex, gold);
-		ica = new IronCeilingAngle(this, "Iron Ceiling Angle", tex, iron);
-		oca = new ObsidianCeilingAngle(this, "Obisidian Ceiling Angle", tex, obsidian);
-		diaca = new DiamondCeilingAngle(this, "Diamond Ceiling Angle", tex, diamond);
-		nca = new NetherbrickCeilingAngle(this, "Netherbrick Ceiling Angle", tex, netherbrick);
+		wca = new WoodenCeilingAngle(this, "Wooden Ceiling Angle", tex, wood, d);
+		cca = new CobbleCeilingAngle(this, "Cobblestone Ceiling Angle", tex, cobble, d);
+		glca = new GlassCeilingAngle(this, "Glass Ceiling Angle", tex, glass, d);
+		ssca = new SandstoneCeilingAngle(this, "Sandstone Ceiling Angle", tex, sandstone, d);
+		dirca = new DirtCeilingAngle(this, "Dirt Ceiling Angle", tex, dirt, d);
+		stca = new StoneCeilingAngle(this, "Stone Ceiling Angle", tex, stone, d);
+		saca = new SandCeilingAngle(this, "Sand Ceiling Angle", tex, sand, d);
+		snca = new SnowCeilingAngle(this, "Snow Ceiling Angle", tex, snow, d);
+		grasca = new GrassCeilingAngle(this, "Grass Ceiling Angle", tex, grass, d);
+		bca = new BricksCeilingAngle(this, "Bricks Ceiling Angle", tex, bricks, d);
+		gravca = new GravelCeilingAngle(this, "Gravel Ceiling Angle", tex, gravel, d);
+		goca = new GoldCeilingAngle(this, "Gold Ceiling Angle", tex, gold, d);
+		ica = new IronCeilingAngle(this, "Iron Ceiling Angle", tex, iron, d);
+		oca = new ObsidianCeilingAngle(this, "Obisidian Ceiling Angle", tex, obsidian, d);
+		diaca = new DiamondCeilingAngle(this, "Diamond Ceiling Angle", tex, diamond, d);
+		nca = new NetherbrickCeilingAngle(this, "Netherbrick Ceiling Angle", tex, netherbrick, d);
 	}
 	
 	public void setupSlantedCorners() {

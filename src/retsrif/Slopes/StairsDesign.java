@@ -49,7 +49,7 @@ public class StairsDesign extends GenericBlockDesign {
 		Quad front1 = new Quad(6, subtex);
 		front1.addVertex(0, 0.5f, 1f, 1f);
 		front1.addVertex(1, 0.5f, 1f, 0f);
-		front1.addVertex(2, 0.5f, 05f, 0f);
+		front1.addVertex(2, 0.5f, 0.5f, 0f);
 		front1.addVertex(3, 0.5f, 0.5f, 1f);
 		
 		Quad front2 = new Quad(7, subtex);
